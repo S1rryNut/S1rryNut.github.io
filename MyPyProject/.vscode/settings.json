@@ -1,0 +1,25 @@
+{
+    "git.ignoreLegacyWarning": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "python.*APythonPath*": "C:\\ProgramData\\anaconda3\\python.exe",
+    // python3路径，注意看我起的名字叫pythonPath，这个名字需要在环境变量里也配置一下！！！
+    "editor.lineHeight": 26, // 编辑器中的行高
+    "editor.fontSize": 18, // 编辑器中的字体
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": true, //编辑器自动保存
+    "python.linting.flake8Enabled": true, //启用flake8，首先需要pip3 install falke8
+    "python.formatting.provider": "autopep8", ///启用yapf，首先需要pip3 install yapf
+    "editor.renderIndentGuides": false,
+    "path-intellisense.autoSlashAfterDirectory": true,
+    "path-intellisense.extensionOnImport": true,
+    "workbench.colorTheme": "Community Material Theme Palenight", // 配色方案
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint_django",
+        "--disable-msg=C0111"
+    ],
+    "terminal.integrated.fontFamily": "monospace",
+    "editor.fontWeight": "500",
+    "python.defaultInterpreterPath": "C:\\ProgramData\\anaconda3\\python.exe",
+    "python.pythonPath": "C:\\ProgramData\\anaconda3\\python.exe",
+}
